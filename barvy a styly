@@ -1,0 +1,16 @@
+Barva textu  #ffffff.
+Podkladová tmavě modrá  #283e50.
+Tlačítko Pravidla  #1fcca4. A po najetí myši  #1cbb96.
+Tlačítko Začít hrát  #0197f6. Po najetí  #0090e9.
+Nezapomeň průběžně commitovat a nahrávat na GitHub.
+
+Proveď změny. Uprav soubory. Napiš html, css.
+Pomocí git add . označ všechny nové změny.
+Přes git commit -m "Název změn" pojmenuj, čeho se změny týkají.
+S git push nahraj commit na Github.
+Vrať se do prvního kroku.
+
+Pro spodní dvě tlačítka použij tag <a>. Oběma zatím nastav atribut href="index.html", ať odkazují na úvodní stránku, protože pravidla a hru budeme dělat až v dalších úkolech.
+
+Tlačíka by se po najetí myši měly ztmavit.
+
