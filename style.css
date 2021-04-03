@@ -79,6 +79,7 @@ li img {
 figcaption {
   font-style: italic;
   font-size: smaller;
+  text-align: center;
 }
 figure img {
   border-radius: 0%;
