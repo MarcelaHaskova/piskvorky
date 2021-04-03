@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(#615dad, #ffc8da);
-  background-size: 100vw 100vh;
+  background-size: 100%;
+  min-height: 100vh;
 }
 
 .panel {
@@ -24,7 +25,7 @@ p {
 }
 
 img {
-  width: 350px;
+  width: 100%;
   border-radius: 15px 15px 0 0;
 }
 
@@ -49,4 +50,61 @@ img {
 }
 .modre:hover {
   background-color: #0090e9;
+}
+.panelPravidla {
+  width: 350px;
+  margin: 0 auto;
+  background-color: #283e50;
+  margin-top: 50px;
+  padding-top: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+}
+ol {
+  padding-right: 20px;
+  text-align: start;
+}
+li {
+  font-size: small;
+  padding: 5px;
+}
+li img {
+  width: 15px;
+  padding-top: 5px;
+  filter: invert(100%);
+}
+
+figcaption {
+  font-style: italic;
+  font-size: smaller;
+}
+figure img {
+  border-radius: 0%;
+  margin-top: 10px;
+}
+@media screen and (min-width: 800px) {
+  .panelPravidla {
+    width: 550px;
+  }
+  li {
+    font-size: normal;
+  }
+  figure.picture-pravidla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+  }
+  .picture-popis {
+    flex-basis: 40%;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  body {
+    max-width: 100%;
+  }
 }
